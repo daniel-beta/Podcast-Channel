@@ -16,7 +16,7 @@ div.bloque-texto {
     margin: 0 18%;
 }
 
-h1.texto1 {
+h1.titulo {
     margin-top: 122px;
     font-family: "IBM Plex Sans";
     font-weight: 400;
@@ -27,14 +27,16 @@ h1.texto1 {
     letter-spacing: 0;
 }
 
-p.texto2 {
+p.parrafo {
     padding: 25px 0;
     font-size: 18px;
     color: #060A24;
     letter-spacing: 0;
     line-height: 32px;
 }
-
+#parrafo-desktop {
+    display: none;
+}
 header {
     background-color: white;
     width: 80%;
@@ -162,6 +164,9 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     overflow: hidden;
     padding-bottom: 5%;
 }
+.sinskew{
+    transform: skew(0, 5deg);
+}
 /*tamaño mayor a 700px*/
 @media screen and (min-width: 700px){
     /*menu*/
@@ -201,7 +206,7 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
         display: none;
     }
     /*texto*/
-    h1.texto1 {
+    h1.titulo {
         margin-top: 200px;
         font-family: "IBM Plex Sans";
         font-weight: 400;
@@ -211,16 +216,22 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
         letter-spacing: 0;
         line-height: 70px;
     }
-    h1.texto1 br {
+    h1.titulo br {
         display: none;
     }
     span.texto-azul {
         color: #0000EC;
     }
-    p.texto2 {
+    p.parrafo {
         width: 628px;
-        font-size: 20px;
+        font-size: 16px;
         padding: 36px 0;
+    }
+    #parrafo-movil {
+        display: none;
+    }
+    #parrafo-desktop {
+        display: inline;
     }
     /* Boton */
     .boton {
