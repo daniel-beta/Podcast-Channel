@@ -6,18 +6,15 @@
     border: 0;
     font-family: 'IBM Plex Mono', monospace;
 }
-
 body {
     display: flex;
     justify-content: center;
 }
-
 div.bloque-texto {
-    margin: 0 18%;
+    padding-top: 130px;
+    margin: 0 6%;
 }
-
 h1.titulo {
-    margin-top: 122px;
     font-family: "IBM Plex Sans";
     font-weight: 400;
     font-style: normal;
@@ -26,7 +23,10 @@ h1.titulo {
     color: #060A24;
     letter-spacing: 0;
 }
-
+h1.blanco {
+    color: white;
+    margin: 60px 0 30px 0;
+}
 p.parrafo {
     padding: 25px 0;
     font-size: 18px;
@@ -40,7 +40,6 @@ p.parrafo {
 header {
     background-color: white;
     width: 80%;
-    max-width: 1440px;
     position: fixed;
     height: 45px;
     top: 0;
@@ -48,7 +47,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
 }
 header img {
     width: 36px;
@@ -154,18 +153,43 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     color: #ffffff;
 }
 #episodios {
-    margin-top: 80px;
-    padding-left: 7%;
-    padding-right: 7%;
+    margin-top: 50px;
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    transform: skew(0, -5deg);
+    transform: skew(0, -7deg);
     width: auto;
     display: flex;
     overflow: hidden;
     padding-bottom: 5%;
 }
-.sinskew{
-    transform: skew(0, 5deg);
+.episodios{
+    margin: 0 6%;
+    transform: skew(0, 7deg);
+    margin-bottom: 130px;
+}
+.spotify{
+    width: 100%;
+    height: 252px;
+    border:0;
+    background-color: transparent;
+    overflow: hidden;
+}
+#nosotros {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    margin-top: -130px;
+}
+.nosotros {
+    display: block;
+    margin: 0 10%;
+    width: 80%;
+    justify-content: center;
+}
+img#phone {
+    width: 100%;
+}
+.about-us {
+    margin-top: 25px;
 }
 /*tamaño mayor a 700px*/
 @media screen and (min-width: 700px){
@@ -205,13 +229,15 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     header nav .menu span {
         display: none;
     }
+    div.bloque-texto {
+        padding-top: 200px;
+    }
     /*texto*/
     h1.titulo {
-        margin-top: 200px;
         font-family: "IBM Plex Sans";
         font-weight: 400;
         font-style: normal;
-        font-size: 70px;
+        font-size: 56px;
         color: #060A24;
         letter-spacing: 0;
         line-height: 70px;
@@ -223,9 +249,11 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
         color: #0000EC;
     }
     p.parrafo {
-        width: 628px;
         font-size: 16px;
-        padding: 36px 0;
+        padding: 15px 0 36px 0;
+    }
+    .bloque-texto p.parrafo {
+        width: 628px;
     }
     #parrafo-movil {
         display: none;
@@ -238,5 +266,31 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
     width: 300px;
     padding: 2%;
     font-size: 22px;
+    }
+    div.bloque-texto {
+        margin: 0 20%;
+    }
+    .spotify {
+    width: 48%;
+    }
+    .episodios {
+        margin: 0 10%;
+        margin-bottom: 130px;
+        width: 80%;
+    }
+    h1.blanco {
+        margin-top: 150px;
+        color: white;
+    }
+    img#phone {
+    width: 80%;
+    }
+    .nosotros {
+        display: flex;
+        flex-direction: row;
+    }
+    .about-us {
+        width: 50%;
+        margin-top: 150px;
     }
 }
