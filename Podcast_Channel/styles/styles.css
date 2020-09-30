@@ -191,6 +191,18 @@ img#phone {
 .about-us {
     margin-top: 25px;
 }
+#invitados h1.titulo {
+    margin: 10% 10%;
+}
+.fotos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.foto {
+    flex: 1;
+    width: 100%;
+}
 /*tamaño mayor a 700px*/
 @media screen and (min-width: 700px){
     /*menu*/
@@ -292,5 +304,12 @@ img#phone {
     .about-us {
         width: 50%;
         margin-top: 150px;
+    }
+    #invitados h1.titulo {
+        margin: 4% 20%;
+    }
+    .foto {
+        flex: 1;
+        width: 33.33%;
     }
 }
