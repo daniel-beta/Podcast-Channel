@@ -14,7 +14,8 @@ div.bloque-texto {
     padding-top: 130px;
     margin: 0 6%;
 }
-h1.titulo {
+h1.titulo,
+h2.titulo {
     font-family: "IBM Plex Sans";
     font-weight: 400;
     font-style: normal;
@@ -23,7 +24,8 @@ h1.titulo {
     color: #060A24;
     letter-spacing: 0;
 }
-h1.blanco {
+h1.blanco,
+h2.blanco {
     color: white;
     margin: 60px 0 30px 0;
 }
@@ -191,7 +193,9 @@ img#phone {
     margin-top: 25px;
 }
 #invitados h1.titulo,
-#topicos h1.titulo {
+#topicos h1.titulo,
+#invitados h2.titulo,
+#topicos h2.titulo {
     margin: 10% 10%;
 }
 .fotos {
@@ -236,7 +240,7 @@ img#phone {
     color: white;
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 48px;
 }
 .contenido-novedades .boton {
     margin-top: 40px;
@@ -300,16 +304,18 @@ footer {
         padding-top: 200px;
     }
     /*texto*/
-    h1.titulo {
+    h1.titulo,
+    h2.titulo {
         font-family: "IBM Plex Sans";
         font-weight: 400;
         font-style: normal;
-        font-size: 56px;
+        font-size: 48px;
         color: #060A24;
         letter-spacing: 0;
         line-height: 70px;
     }
-    h1.titulo br {
+    h1.titulo br,
+    h2.titulo br {
         display: none;
     }
     span.texto-azul {
@@ -330,7 +336,7 @@ footer {
     }
     /* Boton */
     .boton {
-    max-width: 334px;
+    max-width: 350px;
     padding: 2%;
     font-size: 22px;
     }
@@ -345,7 +351,8 @@ footer {
         margin-bottom: 130px;
         width: 80%;
     }
-    h1.blanco {
+    h1.blanco,
+    h2.blanco {
         margin-top: 150px;
         color: white;
     }
@@ -361,7 +368,9 @@ footer {
         margin-top: 150px;
     }
     #invitados h1.titulo,
-    #topicos h1.titulo {
+    #topicos h1.titulo,
+    #invitados h2.titulo,
+    #topicos h2.titulo {
         margin: 3% 14%;
     }
     .foto {
