@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/logo.svg">
     <script src="https://kit.fontawesome.com/ad0cc42cb8.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -22,7 +23,7 @@
                     <li class="menu-item"><a href="#episodios">EPISODIOS</a></li>
                     <li class="menu-item"><a href="#nosotros">NOSOTROS</a></li>
                     <li class="menu-item"><a href="#invitados">ENTREVISTAS</a></li>
-                    <li class="menu-item"><a href="#temas">TÓPICOS</a></li>
+                    <li class="menu-item"><a href="#topicos">TÓPICOS</a></li>
                 </ul>
             </div>
         </nav>
@@ -31,7 +32,7 @@
         <div class="bloque-texto">
             <h1 class="titulo">Hello <s>world</s> <br>pale blue dot<span class="texto-azul">.</span></h1>
             <p class="parrafo"><span id="parrafo-movil">Un podcast que explora el mundo de la programación.</span><span id="parrafo-desktop">El portal de podcasts que explora el mundo de la programación y la tecnología.</span> Nuevos episodios, todos los jueves cada 15 días.</p>
-            <button class="boton">CONOCÉ MÁS</button>
+            <a href="#episodios"><button class="boton">CONOCÉ MÁS</button></a>
         </div>
         <section id="episodios">
             <div class="episodios">
@@ -54,7 +55,7 @@
             </div>
         </section>
         <section id="invitados">
-            <h1 class="titulo">Invitadas/os estelares</h2>
+            <h1 class="titulo">Invitadas/os estelares</h1>
             <div class="fotos">
                 <img class="foto" src="images/grace-hopper.png" alt="Grace Hopper">
                 <img class="foto" src="images/Margaret_Hamilton.png" alt="Margaret Hamilton">
@@ -64,7 +65,44 @@
                 <img class="foto" src="images/susan-kare.png" alt="Susan Kare">
             </div>
         </section>
+        <section id="topicos">
+            <h1 class="titulo">Algunos de nuestros temas</h1>
+            <div class="temas">
+                <div class="nuestros-temas">
+                    <img src="images/icon1.svg" alt="Trabajo remoto">
+                    <p>Trabajo remoto</p>
+                </div>
+                <div class="nuestros-temas">
+                    <img src="images/icon2.svg" alt="Repensando la programación">
+                    <p>Repensando la programación</p>
+                </div>
+                <div class="nuestros-temas">
+                    <img src="images/icon3.svg" alt="Bases del código">
+                    <p>Bases del código</p>
+                </div>
+                <div class="nuestros-temas">
+                    <img src="images/icon4.svg" alt="Seguridad informática">
+                    <p>Seguridad informática</p>
+                </div>
+            </div>
+        </section>
+        <section class="novedades">
+            <div class="novedad" id="center"></div>
+            <div class="contenido-novedades">
+                <h2 class="titulo-novedades">¿Querés las últimas novedades?</h2>	
+                <a href="#episodios"><button class="boton">ESCUCHÁ LOS EPISODIOS</button></a>
+            </div>
+        </section>
+        <footer>
+            <p class="copyright">© 2019— Hello blue pale dot</p>
+            <div class="iconos-social">
+                <a href="http://www.spotify.com"><em class="fa fa-spotify"></em></a>
+                <a href="http://www.instagram.com"><em class="fa fa-instagram"></em></a>
+                <a href="http://www.twitter.com"><em class="fa fa-twitter"></em></a>
+                <a href="http://www.facebook.com"><em class="fa fa-facebook"></em></a>
+                <a href="http://www.telegram.com"><em class="fa fa-telegram"></em></a>
+            </div>
+        </footer>
     </div>
-                <!-- <em class="fas fa-camera"></em> -->
 </body>
 </html>
