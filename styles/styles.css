@@ -14,8 +14,7 @@ div.bloque-texto {
     padding-top: 130px;
     margin: 0 6%;
 }
-h1.titulo,
-h2.titulo {
+h1.titulo {
     font-family: "IBM Plex Sans";
     font-weight: 400;
     font-style: normal;
@@ -218,7 +217,7 @@ img#phone {
     flex: 1;
     margin: 15px;
 }
-.novedades {
+#novedades {
     position: relative;
     padding-top: 5%;
     overflow: hidden;
@@ -304,7 +303,9 @@ footer {
         padding-top: 200px;
     }
     /*texto*/
-    h1.titulo,
+    h1.titulo {
+        font-size: 52px;
+    }
     h2.titulo {
         font-family: "IBM Plex Sans";
         font-weight: 400;
