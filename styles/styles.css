@@ -23,6 +23,11 @@ h1.titulo {
     color: #060A24;
     letter-spacing: 0;
 }
+h2.titulo {
+    font-family: "IBM Plex Sans";
+    font-size: 36px;
+    font-weight: 400;
+}
 h1.blanco,
 h2.blanco {
     color: white;
@@ -356,6 +361,7 @@ footer {
     h2.blanco {
         margin-top: 150px;
         color: white;
+        margin-left: 80px;
     }
     img#phone {
     width: 80%;
