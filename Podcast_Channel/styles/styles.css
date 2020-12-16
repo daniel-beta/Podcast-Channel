@@ -217,7 +217,7 @@ img#phone {
     flex: 1;
     margin: 15px;
 }
-.novedades {
+#novedades {
     position: relative;
     padding-top: 5%;
     overflow: hidden;
